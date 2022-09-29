@@ -46,7 +46,7 @@ INSTALLED_APPS = [
 
 # Tailwind configuration
 TAILWIND_APP_NAME = "theme"
-INTERNAL_IPS = [ "127.0.0.1" ]
+INTERNAL_IPS = ["127.0.0.1"]
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
@@ -90,7 +90,7 @@ if config("LOCAL_DB", default=True, cast=bool):
         }
     }
 else:
-    DATABASE_PROVIDER = config('DATABASE_PROVIDER', default='postgresql')
+    DATABASE_PROVIDER = config("DATABASE_PROVIDER", default="postgresql")
     DATABASES = {
         "default": {
             "ENGINE": f"django.db.backends.{DATABASE_PROVIDER}",
