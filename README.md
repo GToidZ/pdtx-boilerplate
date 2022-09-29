@@ -9,7 +9,7 @@ A Django boilerplate made with *Modernity* in mind.
 # Prerequisites
 * `Python >= 3.8`
 * `Node.js >= 16`
-* `Postgres Server + Client Library` *see [docs](psycopg2-docs) for more info*
+* `Postgres Server + Client Library` *see [docs][psycopg2-docs] for more info*
 ## For building `psycopg2` for production
 * `gcc` or any C compiler
 * `Python headers` usually in `python3-dev` package
