@@ -67,6 +67,7 @@ Consult the [Github Repository][django-types] for more info.
 * [Django Documentation][django-docs]
 * [Tailwind.css Documentation][tailwind-docs]
 * [htmx Documentation][htmx-docs]
+
 There are also materials for specific Python packages for app dependencies,
 * [django-tailwind][django-tailwind]
 * [django-htmx][django-htmx]
